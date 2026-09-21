@@ -1,7 +1,7 @@
 # DSC 510
 # Week 2
 # Programming Assignment Week 2
-# Author Gabriel Tessema
+# Author Gebriel Tessema
 # 9/12/2026
 # Change#:1
 # Change(s) Made: Initial creation
@@ -23,7 +23,9 @@ feet_of_cable = float(input("Enter the number of feet of fiber optic cable: "))
 total_cost = feet_of_cable * 0.95
 
 # The receipt (formatted legibly)
-print("\n" + "=" * 35)
+#print("\n" + "=" * 35)
+print("=" * 35)
+
 print("          RECEIPT")
 print("=" * 35)
 print(f"Company Name: {company_name}")
